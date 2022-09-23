@@ -1,0 +1,156 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(93, 111, 129);
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 88px;
+    background-color: rgb(221, 229, 236);
+}
+
+
+
+#main{
+    background-color: indianred;
+    width: 100%;
+    height: auto;
+    padding: 0 2px 30px 2px;
+    margin-top: 0%;
+    background-color: rgb(180, 212, 243);
+}
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0;
+  }
+  
+  #img-div {
+    padding: 10px;
+    margin: 0;
+    display: auto;
+  }
+  #image {
+    width: 60%;
+    height:auto;
+    display:block;
+    margin: auto;
+    border: ridge;
+     border-radius: 25px;
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+
+#img-caption{
+    text-align: center;
+    margin: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h3{
+    margin: 20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#tribute-p{
+    margin: 20px 30px 20px 30px;
+}
+
+
+
+#cronologia{
+    background-color: rgb(189, 215, 241);
+    margin: 30px 160px 30px 160px;
+    padding: 10px 30px 0 30px ;
+    border: 10px solid;
+    border-radius: 6px;
+}
+#cronologia-titulo{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+}
+ header{
+    font-size: 25px;
+    color: #2c2c2c;
+    
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(22, 21, 24, 0.2);
+
+
+ }
+ p{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+
+ #tribute-link{
+    color: darkblue;
+ }
+ #tribute-p2{
+    margin: 0 20px 50px 20px;
+    padding: 0 20px 50px 20px;
+ }
+
+ footer{
+    background-color: rgb(33, 107, 180);
+ }
+
+ @media (width <= 360px ){
+
+#image{
+    width:200px;
+    height:auto ;
+}
+#cronologia{
+    
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#cronologia-titulo{
+    font-size: 20px;
+}
+header{
+    font-size: 12px;
+}
+p{
+   font-size: 10px; 
+}
+}
+@media (375px <= width <= 768px) { 
+    #image{
+        width:400px;
+        height:auto ;
+    }
+    #cronologia{
+        
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #cronologia-titulo{
+        font-size: 30px;
+    }
+    header{
+        font-size: 22px;
+    }
+    p{
+       font-size: 20px; 
+    }
+}
+
+
